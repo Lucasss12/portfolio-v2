@@ -1,13 +1,16 @@
-import Image from 'next/image'
 import React from 'react'
-
-import Naxt from '../../public/images/naxt.webp'
+import {Image} from "@nextui-org/image";
 
 export default function recentWork() {
   return (
-    <div className='border'>
+    <div>
       <h3>Mon dernier projet</h3>
-      <Image src={Naxt} alt="Picture of the author" className='w-fit' width={1920} height={1080} />
-    </div>
+      <Image
+      isBlurred
+      width={1200}
+      alt="NextUI Fruit Image with Zoom"
+      src="images/naxt.webp"
+      className='w-fit'
+    />   </div>
   )
 }

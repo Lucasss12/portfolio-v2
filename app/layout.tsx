@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import {NextUIProvider} from "@nextui-org/react";
 import { Rubik } from "next/font/google";
 import "./globals.css";
 
@@ -17,10 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-    <body className={`${inter.className} max-lg:mx-10 max-w-screen-md mx-auto`}>
-      {children}
-      <DockDemo />
-    </body>
-  </html>
+      <body className={`${inter.className} max-lg:mx-10 max-w-screen-md mx-auto`}>
+        <NextUIProvider>
+          {children}
+          <DockDemo />
+        </NextUIProvider>
+      </body>
+    </html>
   );
 }
