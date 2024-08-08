@@ -3,6 +3,7 @@
 import React, { PropsWithChildren, useRef } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
+import Link from "next/link"; 
 
 import { cn } from "@/lib/utils";
 
@@ -72,6 +73,9 @@ export interface DockIconProps {
   mouseX?: any;
   className?: string;
   children?: React.ReactNode;
+  href?: string;
+  target?: string;
+  tooltipText?: string;
   props?: PropsWithChildren;
 }
 
@@ -82,13 +86,16 @@ const DockIcon = ({
   mouseX,
   className,
   children,
+  href,
+  target,
+  tooltipText,
   ...props
 }: DockIconProps) => {
   const ref = useRef<HTMLDivElement>(null);
+  const [hover, setHover] = React.useState(false);
 
   const distanceCalc = useTransform(mouseX, (val: number) => {
     const bounds = ref.current?.getBoundingClientRect() ?? { x: 0, width: 0 };
-
     return val - bounds.x - bounds.width / 2;
   });
 
@@ -104,20 +111,48 @@ const DockIcon = ({
     damping: 12,
   });
 
-  return (
+  const tooltipVariants = {
+    hidden: { opacity: 0, y: -10 },
+    visible: { opacity: 1, y: 0 }
+  };
+
+  const content = (
     <motion.div
       ref={ref}
       style={{ width }}
       className={cn(
-        "flex aspect-square cursor-pointer items-center justify-center rounded-full",
+        "relative flex aspect-square cursor-pointer items-center justify-center rounded-full",
         className,
       )}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
       {...props}
     >
       {children}
+      {tooltipText && (
+        <motion.div
+          className="absolute bottom-full py-1 px-2 bg-black text-white text-xs rounded whitespace-nowrap"
+          variants={tooltipVariants}
+          initial="hidden"
+          animate={hover ? "visible" : "hidden"}
+        >
+          {tooltipText}
+        </motion.div>
+      )}
     </motion.div>
   );
+
+  if (href) {
+    return (
+      <Link href={href} target={target}>
+        {content}
+      </Link>
+    );
+  }
+
+  return content;
 };
+
 
 DockIcon.displayName = "DockIcon";
 

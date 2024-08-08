@@ -1,10 +1,9 @@
-// import Headers from "./components/headers/headers";
+import Headers from "../components/headers/headers";
 
 export default function Home() {
   return (
-    <div className="mt-40 max-w-screen-lg mx-auto">
-      test
-      {/* <Headers /> */}
+    <div className="sm:mt-10 mt-5 max-w-screen-lg mx-auto">
+      <Headers />
     </div>
   );
 }
