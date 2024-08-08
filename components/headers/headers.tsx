@@ -5,7 +5,7 @@ import Pfp from './ui/pfp'
 
 export default function headers() {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center border'>
       <Available />
       <CatchPhrase />
       <Pfp />
