@@ -7,8 +7,8 @@ import {DockDemo} from "../components/dock/dock";
 const inter = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lucas Méné Développeur front-end - UI/UX Designer",
-  description: "Lucas Méné Développeur front-end - UI/UX Designer",
+  title: "Lucas Méné Développeur front-end",
+  description: "Lucas Méné Développeur front-end",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${inter.className} max-lg:mx-8 max-w-screen-md mx-auto border`}>
+      <body className={`${inter.className} max-lg:mx-8 max-w-screen-md mx-auto border-x sm:mt-10 mt-5`}>
         <NextUIProvider>
           {children}
           <DockDemo />

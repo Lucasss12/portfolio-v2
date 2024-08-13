@@ -40,7 +40,7 @@ const config = {
         'custom': 'rgba(99, 99, 99, 0.15) 0px 2px 4px 0px',
       },
       colors: {
-        textGray: '#404040',
+        textGray: '#4c555f',
         gradiantBlue: 'rgba(16, 119, 215, 1)',
         gradiantAccentBlue: 'rgba(151, 197, 248, 1)',
         greenAccent: '#3BE51F',
