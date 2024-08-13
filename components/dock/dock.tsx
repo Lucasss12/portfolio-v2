@@ -10,10 +10,10 @@ export function DockDemo() {
         <DockIcon href="/" tooltipText="Accueil">
           <Icons.home className="size-5" />
         </DockIcon>
-        <DockIcon href="/profile" tooltipText="a propos">
+        <DockIcon href="/profile" tooltipText="A propos">
           <Icons.profile className="size-5" />
         </DockIcon>
-        <DockIcon href="/projects" tooltipText="projects">
+        <DockIcon href="/projects" tooltipText="Projecs">
           <Icons.projects className="size-5" />
         </DockIcon>
         <DockIcon

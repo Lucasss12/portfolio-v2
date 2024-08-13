@@ -1,14 +1,10 @@
 import React from 'react'
-import Available from './ui/available'
-import CatchPhrase from './ui/catchPhrase'
-import Pfp from './ui/pfp'
+import Description from './ui/description'
 
 export default function headers() {
   return (
-    <div className='flex flex-col items-center'>
-      <Available />
-      <CatchPhrase />
-      <Pfp />
+    <div className='flex flex-col items-start'>
+      <Description />
     </div>
   )
 }

@@ -3,9 +3,9 @@ import RecentWork from "@/components/recentWork/recentWork";
 
 export default function Home() {
   return (
-    <div className="sm:mt-10 mt-5">
+    <div className="mt-5">
       <Headers />
-      <RecentWork />
+      {/* <RecentWork /> */}
     </div>
   );
 }

@@ -34,14 +34,13 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        'pulse-shadow': 'pulse-shadow 1.5s infinite',
+        'pulse-shadow': 'pulse-shadow 3s infinite',
       },
       boxShadow: {
         'custom': 'rgba(99, 99, 99, 0.15) 0px 2px 4px 0px',
       },
       colors: {
-        textGray: '#999999',
-        linkActive: 'rgba(151, 197, 248, 0.1)',
+        textGray: '#404040',
         gradiantBlue: 'rgba(16, 119, 215, 1)',
         gradiantAccentBlue: 'rgba(151, 197, 248, 1)',
         greenAccent: '#3BE51F',
