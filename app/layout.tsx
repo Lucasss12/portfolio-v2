@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${inter.className} max-lg:mx-8 max-w-screen-md mx-auto border-x sm:mt-10 mt-5`}>
+      <body className={`${inter.className} md:mx-auto mx-5 max-w-screen-md border-x sm:mt-10 mt-5`}>
         <NextUIProvider>
           {children}
           <DockDemo />
