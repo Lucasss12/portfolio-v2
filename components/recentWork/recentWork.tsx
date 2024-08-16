@@ -6,7 +6,14 @@ import { Image } from "@nextui-org/image";
 export default function recentWork() {
   return (
     <div className="sm:mt-20 mt-12 mb-96">
-      <h3 className="text-xl font-medium">Mon dernier projet</h3>
+      <div className="flex justify-between items-center">
+        <h3 className="text-xl font-medium">Mon dernier projet</h3>
+
+        <button className="flex items-center px-3 py-2 rounded-md border border-slate-200 bg-slate-50 bg-opacity-70 text-sm hover:-translate-y-1 transform transition duration-200">
+          Mes autres projets
+          <Image width={16} height={16} src="icons/chevrons-right.svg" alt="Chevron droit" className="ml-1"/>
+        </button>       
+      </div>
 
       <Link href="https://naxt.fr/" target="_blank">
         <Image isBlurred width={1200} alt="Page d'accueil de Naxt" src="images/home-page-naxt.webp" className="w-fit"/>
@@ -27,9 +34,32 @@ export default function recentWork() {
         <Link href="https://www.italplant.com/en/" className="underline text-black">ITALPLANT</Link>.
       </p>
 
-      <div className="flex justify-center mt-4"> 
-        <button className="flex items-center bg-gradient-to-t from-gradiantAccentBlue to-gradiantBlue px-10 py-2 rounded-[11px] text-white inner-shadow">
-          En voir plus
+      <div className="flex items space-x-2 mt-2">
+        <p className="py-1 px-2 bg-black text-white text-xs rounded w-fit">
+          Freelance
+        </p>
+
+        <p className="py-1 px-2 bg-black text-white text-xs rounded w-fit">
+          E-commerce
+        </p>
+
+        <p className="py-1 px-2 bg-black text-white text-xs rounded w-fit">
+          Next.js
+        </p>
+
+        <p className="py-1 px-2 bg-black text-white text-xs rounded w-fit">
+          React
+        </p>
+
+        <p className="py-1 px-2 bg-black text-white text-xs rounded w-fit">
+          Tailwind
+        </p>
+      </div>
+
+
+      <div className="flex justify-start mt-4"> 
+        <button className="flex items-center px-3 py-2 rounded-md border border-slate-200 bg-slate-50 bg-opacity-70 text-sm hover:-translate-y-1 transform transition duration-200">
+          En savoir plus
           <Image width={16} height={16} src="icons/chevrons-right.svg" alt="Chevron droit" className="ml-1"/>
         </button>
 
