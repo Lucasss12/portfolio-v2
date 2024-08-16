@@ -2,7 +2,6 @@ import type { Config } from "tailwindcss"
 const {nextui} = require("@nextui-org/react");
 
 const config = {
-  // darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -30,19 +29,24 @@ const config = {
             boxShadow: '0 0 10px 4px rgba(59, 229, 31, 1)',
           },
         },
+        pulse: {
+          "0%, 100%": { boxShadow: "0 0 0 0 var(--pulse-color)" },
+          "50%": { boxShadow: "0 0 0 8px var(--pulse-color)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         'pulse-shadow': 'pulse-shadow 3s infinite',
+        pulse: "pulse var(--duration) ease-out infinite",
       },
       boxShadow: {
         'custom': 'rgba(99, 99, 99, 0.15) 0px 2px 4px 0px',
       },
       colors: {
         textGray: '#4c555f',
-        gradiantBlue: 'rgba(16, 119, 215, 1)',
-        gradiantAccentBlue: 'rgba(151, 197, 248, 1)',
+        mainPurple: '#643afd',
+        accentPurple: '#CCCCFF',
         greenAccent: '#3BE51F',
       },
     },

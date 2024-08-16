@@ -5,7 +5,7 @@ import { Image } from "@nextui-org/image";
 
 export default function recentWork() {
   return (
-    <div className="mt-20 mb-96">
+    <div className="sm:mt-20 mt-12 mb-96">
       <h3 className="text-xl font-medium">Mon dernier projet</h3>
 
       <Link href="https://naxt.fr/" target="_blank">

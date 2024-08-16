@@ -1,7 +1,8 @@
 import React from "react";
 
-import ButtonHeaders from "@/components/ui/buttonHeaders";
 import Available from "./available";
+import ButtonHeaders from "./buttonHeaders";
+import PulsatingButton from "@/components/magicui/pulsating-button";
 
 export default function description() {
   return (
@@ -12,18 +13,21 @@ export default function description() {
       </div>
 
       <p className="text-textGray">
-        Bonjour 👋 je suis développeur
-        <ButtonHeaders text="front-end" svg="/icons/code.svg" url="#" />.
-        Je conçois et design votre site avec
+        Bonjour 👋 je suis développeur web <span className="text-black underline">front-end.</span> {" "}
+        J&apos;imagine et design votre site avec
         <ButtonHeaders text="figma" svg="/icons/figma.svg" url="https://www.figma.com/fr-fr/" />
-        puis je le développe avec
+        puis le développe avec
         <ButtonHeaders text="react" svg="/icons/react.svg" url="https://fr.react.dev/" rotate />
         ou
-        <ButtonHeaders text="next" svg="/icons/next.svg" url="https://nextjs.org/" />
-        tout sa combiné avec 
+        <ButtonHeaders text="next" svg="/icons/next.svg" url="https://nextjs.org/" />.
+        Tout sa combiné à 
         <ButtonHeaders text="tailwind" svg="/icons/tailwind.svg" url="https://tailwindcss.com/" />
-        pour offrir un design et une expérience utilisateur fluide et moderne.
+        pour offrir une expérience utilisateur fluide et moderne.
       </p>
+
+      <div className='mt-4'>
+        <PulsatingButton>Réserver un appel</PulsatingButton>
+      </div>
     </div>
   );
 }
