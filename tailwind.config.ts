@@ -21,14 +21,6 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        'pulse-shadow': {
-          '0%, 100%': {
-            boxShadow: '0 0 10px 4px rgba(59, 229, 31, 0.6)',
-          },
-          '50%': {
-            boxShadow: '0 0 10px 4px rgba(59, 229, 31, 1)',
-          },
-        },
         pulse: {
           "0%, 100%": { boxShadow: "0 0 0 0 var(--pulse-color)" },
           "50%": { boxShadow: "0 0 0 8px var(--pulse-color)" },
@@ -37,7 +29,6 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        'pulse-shadow': 'pulse-shadow 3s infinite',
         pulse: "pulse var(--duration) ease-out infinite",
       },
       boxShadow: {
@@ -47,7 +38,7 @@ const config = {
         textGray: '#4c555f',
         mainPurple: '#643afd',
         accentPurple: '#CCCCFF',
-        greenAccent: '#3BE51F',
+        greenAccent: '#4ade80',
       },
     },
   },

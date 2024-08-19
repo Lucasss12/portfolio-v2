@@ -1,7 +1,7 @@
 import React from "react";
 
 import Available from "./available";
-import ButtonHeaders from "./buttonHeaders";
+import ButtonsInfos from "./buttonsInfos";
 import PulsatingButton from "@/components/magicui/pulsating-button";
 
 export default function description() {
@@ -15,13 +15,13 @@ export default function description() {
       <p className="text-textGray">
         Bonjour 👋 je suis développeur web <span className="text-black underline">front-end.</span> {" "}
         J&apos;imagine et design votre site avec
-        <ButtonHeaders text="figma" svg="/icons/figma.svg" url="https://www.figma.com/fr-fr/" />
+        <ButtonsInfos text="figma" svg="/icons/figma.svg" url="https://www.figma.com/fr-fr/" />
         puis le développe avec
-        <ButtonHeaders text="react" svg="/icons/react.svg" url="https://fr.react.dev/" rotate />
+        <ButtonsInfos text="react" svg="/icons/react.svg" url="https://fr.react.dev/" rotate />
         ou
-        <ButtonHeaders text="next" svg="/icons/next.svg" url="https://nextjs.org/" />.
+        <ButtonsInfos text="next" svg="/icons/next.svg" url="https://nextjs.org/" />.
         Tout sa combiné à 
-        <ButtonHeaders text="tailwind" svg="/icons/tailwind.svg" url="https://tailwindcss.com/" />
+        <ButtonsInfos text="tailwind" svg="/icons/tailwind.svg" url="https://tailwindcss.com/" />
         pour offrir une expérience utilisateur fluide et moderne.
       </p>
 
