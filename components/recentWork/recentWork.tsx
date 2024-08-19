@@ -6,11 +6,11 @@ import CardInfo from "./ui/cardInfo";
 
 export default function recentWork() {
   return (
-    <div className="sm:mt-20 mt-12 mb-96">
+    <div className="sm:mt-20 mt-12 mb-32">
       <div className="flex justify-between items-center">
         <h3 className="text-xl font-medium">Mon dernier projet</h3>
 
-        <button className="flex items-center px-3 py-2 rounded-md border border-slate-200 bg-slate-50 bg-opacity-70 text-sm hover:-translate-y-1 transform transition duration-200">
+        <button className="flex items-center px-3 py-2 rounded-md bg-bgGray bg-opacity-80 text-sm hover:-translate-y-1 transform transition duration-200">
           Mes autres projets
           <Image width={16} height={16} src="icons/chevrons-right.svg" alt="Chevron droit" className="ml-1"/>
         </button>       

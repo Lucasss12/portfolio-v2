@@ -2,7 +2,7 @@ import React from "react";
 
 import Available from "./available";
 import ButtonsInfos from "./buttonsInfos";
-import PulsatingButton from "@/components/magicui/pulsating-button";
+import PulsatingButton from "@/components/ui/pulsating-button";
 
 export default function description() {
   return (

@@ -35,11 +35,19 @@ const config = {
         'custom': 'rgba(99, 99, 99, 0.15) 0px 2px 4px 0px',
       },
       colors: {
+        bgGray: '#f2f2f2',
         textGray: '#4c555f',
         mainPurple: '#643afd',
         accentPurple: '#CCCCFF',
         greenAccent: '#4ade80',
       },
+      screens: {
+        'sm': '640px',
+        'md': '820px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      }
     },
   },
   plugins: [require("tailwindcss-animate"), nextui()], 
