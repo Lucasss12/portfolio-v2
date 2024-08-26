@@ -35,10 +35,8 @@ const config = {
         'custom': 'rgba(99, 99, 99, 0.15) 0px 2px 4px 0px',
       },
       colors: {
-        bgGray: '#f2f2f2',
-        textGray: '#4c555f',
-        mainPurple: '#643afd',
-        accentPurple: '#CCCCFF',
+        mainBg: '#f2f2f2',
+        secondaryText: '#575f69',
         greenAccent: '#4ade80',
       },
       screens: {

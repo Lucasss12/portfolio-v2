@@ -7,7 +7,7 @@ export default function Available() {
         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-greenAccent opacity-75"></span>
         <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-greenAccent"></span>
       </span>
-      <p className="text-textGray">Disponible</p>
+      <p className="text-secondaryText">Disponible</p>
     </div>
   );
 }

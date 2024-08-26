@@ -10,7 +10,7 @@ export default function recentWork() {
       <div className="flex justify-between items-center">
         <h3 className="text-xl font-medium">Mon dernier projet</h3>
 
-        <button className="flex items-center px-3 py-2 rounded-md bg-bgGray bg-opacity-80 text-sm hover:-translate-y-1 transform transition duration-200">
+        <button className="flex items-center px-3 py-2 rounded-md bg-mainBg bg-opacity-80 text-sm hover:-translate-y-1 transform transition duration-200">
           Mes autres projets
           <Image width={16} height={16} src="icons/chevrons-right.svg" alt="Chevron droit" className="ml-1"/>
         </button>       
@@ -28,7 +28,7 @@ export default function recentWork() {
           </Link>
         </div>
 
-        <p className="text-textGray mt-2">
+        <p className="text-secondaryText mt-2">
           Naxt, est une plateforme e-commerce dédiée à l&apos;industrie 5.0, qui
           allie innovation et qualité avec une offre diversifiée, portée par des
           partenaires prestigieux tels que{" "}
