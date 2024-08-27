@@ -1,13 +1,11 @@
 import Headers from "../components/headers/headers";
 import RecentWork from "@/components/recentWork/recentWork";
-import LayoutGridDemo from "@/components/selectDesigns/selectDesigns";
 
 export default function Home() {
   return (
     <div>
       <Headers />
       <RecentWork />
-      <LayoutGridDemo />
     </div>
   );
 }

@@ -36,11 +36,12 @@ const config = {
       },
       colors: {
         mainBg: '#f2f2f2',
-        secondaryText: '#575f69',
+        bgCardWork: '#fbfbfb',
+        secondaryText: '#6b737e',
         greenAccent: '#4ade80',
       },
       screens: {
-        'sm': '640px',
+        'sm': '700px',
         'md': '820px',
         'lg': '1024px',
         'xl': '1280px',
