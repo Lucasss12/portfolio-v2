@@ -41,7 +41,7 @@ const config = {
         greenAccent: '#4ade80',
       },
       screens: {
-        'sm': '700px',
+        'sm': '680px',
         'md': '820px',
         'lg': '1024px',
         'xl': '1280px',
