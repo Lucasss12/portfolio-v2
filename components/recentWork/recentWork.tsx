@@ -19,7 +19,7 @@ export default function recentWork() {
       <div>
         <Link href="https://naxt.fr/" target="_blank">
           <div className="border p-4 rounded-xl bg-bgCardWork hover:bg-neutral-100">
-            <Image width={1200} alt="Page d'accueil de Naxt" src="images/home-page-naxt.webp" className="w-fit border rounded-lg"/>
+            <Image width={1200} alt="Page d'accueil de Naxt" src="images/home-page-naxt.webp" className="w-fit border rounded-lg shadow-sm"/>
 
             <div className="flex justify-between items-center mt-2">
               <span className="flex items-center text-lg w-fit hover:underline">
@@ -32,7 +32,7 @@ export default function recentWork() {
 
             <p className="text-secondaryText">UI/UX - Front-end</p>
 
-            <div className="flex items space-x-2 mt-2">
+            <div className="flex flex-wrap items mt-1">
               <CardInfo title="Freelance" />
               <CardInfo title="E-commerce" />
               <CardInfo title="React" />
