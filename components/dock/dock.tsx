@@ -5,7 +5,7 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export function DockDemo() {
   return (
-    <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 z-10 mb-5">
+    <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 z-50 mb-5">
       <Dock direction="middle">
         <DockIcon href="/" tooltipText="Accueil">
           <Icons.home className="size-5" />
