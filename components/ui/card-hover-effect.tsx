@@ -75,7 +75,7 @@ export const Card = ({
 export const CardTitle = ({className,title, icon}: {className?: string;title: string; icon: string}) => {
   return (
     <h4 className={cn("text-white font-medium tracking-wide mt-4 flex items-center justify-start gap-1", className)}>
-      <Image src={icon} alt={title} width={16} height={16} />
+      <Image src={icon} alt={`Logo ${title}`} width={16} height={16} />
       {title}
     </h4>
   );
