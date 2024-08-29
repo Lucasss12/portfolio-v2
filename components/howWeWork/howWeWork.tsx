@@ -10,21 +10,18 @@ export default function howWeWork() {
 }
 export const projects = [
   {
-    title: "Stripe",
-    description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+    title: "Communication",
+    description:"Ensemble, nous plongeons au cœur de vos objectifs et vos besoins pour comprendre pleinement votre vision et créer un projet sur mesure qui vous ressemble.",
+    icon : "/icons/messages.svg",
   },
   {
-    title: "Netflix",
-    description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+    title: "Développement",
+    description:"Toutes les informations en main, je commence à travailler sur votre projet et vous fais des comptes rendus réguliers pour vous donner une visibilité clair sur l'avancement du projet. et m'assure que mon travail suit toujours votre vision.",
+    icon : "/icons/square-terminal.svg",
   },
   {
-    title: "Google",
-    description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+    title: "Livraison",
+    description:"Nous procédons ensemble à une vérification complète du projet pour s'assurer qu'il répond à toutes vos exigences. J'apporte les ajustements nécessaires pour garantir votre satisfaction totale. Votre projet est finalisé et livré ! Je reste disponible pour toute question ou pour accompagner l'évolution future de votre site web.",
+    icon : "/icons/package.svg",
   },
 ];

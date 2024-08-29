@@ -1,7 +1,7 @@
 'use client'
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export const HoverEffect = ({
@@ -11,7 +11,7 @@ export const HoverEffect = ({
   items: {
     title: string;
     description: string;
-    link: string;
+    icon: string;
   }[];
   className?: string;
 }) => {
@@ -20,28 +20,19 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4",
+        "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2",
         className
       )}
     >
       {items.map((item, idx) => (
-        <Link
-          href={item?.link}
-          key={item?.link}
-          className="relative group block h-full w-full"
-          onMouseEnter={() => setHoveredIndex(idx)}
-          onMouseLeave={() => setHoveredIndex(null)}
-        >
+        <div key={item?.title} className="relative group block h-full w-full" onMouseEnter={() => setHoveredIndex(idx)} onMouseLeave={() => setHoveredIndex(null)}>
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
                 className="absolute -inset-2 h-[calc(100%+16px)] w-[calc(100%+16px)] bg-neutral-200 block rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
-                animate={{
-                  opacity: 1,
-                  transition: { duration: 0.15 },
-                }}
+                animate={{ opacity: 1, transition: { duration: 0.15 },}}
                 exit={{
                   opacity: 0,
                   transition: { duration: 0.15, delay: 0.2 },
@@ -50,10 +41,12 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle>{item.title}</CardTitle>
+            <div>
+              <CardTitle title={item.title} icon={item.icon}/>
+            </div>
             <CardDescription>{item.description}</CardDescription>
           </Card>
-        </Link>
+        </div>
       ))}
     </div>
   );
@@ -79,16 +72,11 @@ export const Card = ({
     </div>
   );
 };
-export const CardTitle = ({
-  className,
-  children,
-}: {
-  className?: string;
-  children: React.ReactNode;
-}) => {
+export const CardTitle = ({className,title, icon}: {className?: string;title: string; icon: string}) => {
   return (
-    <h4 className={cn("text-white font-medium tracking-wide mt-4", className)}>
-      {children}
+    <h4 className={cn("text-white font-medium tracking-wide mt-4 flex items-center justify-start gap-1", className)}>
+      <Image src={icon} alt={title} width={16} height={16} />
+      {title}
     </h4>
   );
 };
