@@ -2,7 +2,7 @@ import { HoverEffect } from "../ui/card-hover-effect";
 
 export default function howWeWork() {
   return (
-    <div className="sm:mt-20 mt-12 mb-44">
+    <div className="sm:mt-20 mt-12">
       <h3 className="text-xl font-medium mb-4">Comment je travail ?</h3>
       <HoverEffect items={projects} />
     </div>
