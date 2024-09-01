@@ -14,7 +14,7 @@ export default function services() {
    ];
 
   return (
-    <div className="sm:mt-20 mt-12 mb-60">
+    <div className="sm:mt-20 mt-12">
       <div>
         <h3 className="text-xl font-medium mb-4 text-black">
           Mes services
@@ -23,7 +23,7 @@ export default function services() {
          <ul className="text-secondaryText grid sm:grid-cols-2 grid-cols-1 gap-4">
            {servicesOffered.map((service, index) => (
              <li key={index} className="flex items-center">
-               <span className="hover:-translate-y-1 transform transition duration-200">{service}</span>
+               <span>{service}</span>
                </li>
              ))}
          </ul>

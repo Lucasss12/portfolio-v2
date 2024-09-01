@@ -4,6 +4,7 @@ import WorkHistory from "@/components/workHistory/workHistory";
 import HowWeWork from "@/components/howWeWork/howWeWork";
 import Me from "@/components/me/me";
 import Services from "@/components/services/services";
+import Reviews from "@/components/reviews/reviews";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HowWeWork />
       <Me />
       <Services />
+      <Reviews />
     </div>
   );
 }
