@@ -3,6 +3,7 @@ import RecentWork from "@/components/recentWork/recentWork";
 import WorkHistory from "@/components/workHistory/workHistory";
 import HowWeWork from "@/components/howWeWork/howWeWork";
 import Me from "@/components/me/me";
+import Services from "@/components/services/services";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <WorkHistory />
       <HowWeWork />
       <Me />
+      <Services />
     </div>
   );
 }
