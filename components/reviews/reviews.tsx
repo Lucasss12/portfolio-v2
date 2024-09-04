@@ -31,7 +31,7 @@ const reviewsData: Review[] = [
 
 const Reviews: React.FC = () => {
   return (
-    <div className="sm:mt-20 mt-12 mb-60">
+    <div className="sm:mt-20 mt-12">
       <h3 className="text-xl font-medium mb-4 text-black">Témoignages</h3>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-2">
         {reviewsData.map((review, index) => (
