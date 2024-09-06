@@ -38,7 +38,7 @@ const faqsData: FAQ[] = [
 
 export default function FAQs() {
   return (
-    <div className="sm:mt-20 mt-12 mb-64">
+    <div className="sm:mt-20 mt-12">
        <h3 className="text-xl font-medium mb-4 text-black">Mon dernier projet</h3>
       {faqsData.map((faq, index) => (
         <AccordionItem key={index} faq={faq} />

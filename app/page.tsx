@@ -6,6 +6,7 @@ import Me from "@/components/me/me";
 import Services from "@/components/services/services";
 import Reviews from "@/components/reviews/reviews";
 import Faqs from "@/components/faqs/faqs";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <Reviews />
       <Faqs />
+      <Footer />
     </div>
   );
 }
