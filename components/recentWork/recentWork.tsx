@@ -12,14 +12,14 @@ export default function recentWork() {
 
         <button className="flex items-center px-3 py-2 rounded-md bg-mainBg bg-opacity-80 text-sm hover:-translate-y-1 transform transition duration-200">
           Mes autres projets
-          <Image width={16} height={16} src="icons/chevrons-right.svg" alt="Chevron droit" className="ml-1"/>
+          <Image width={16} height={16} src="/icons/chevrons-right.svg" alt="Chevron droit" className="ml-1"/>
         </button>
       </div>
 
       <div>
         <Link href="https://naxt.fr/" target="_blank">
           <div className="p-4 rounded-xl bg-bgCardWork hover:bg-neutral-100">
-            <Image width={1200} alt="Page d'accueil de Naxt" src="images/home-page-naxt.webp" className="w-fit border border-slate-200 rounded-lg shadow-sm"/>
+            <Image width={1200} alt="Page d'accueil de Naxt" src="/images/home-page-naxt.webp" className="w-fit border border-slate-200 rounded-lg shadow-sm"/>
 
             <div className="flex justify-between items-center mt-2">
               <span className="flex items-center text-lg w-fit hover:underline">
