@@ -1,21 +1,28 @@
-import React from 'react';
-import { getPostData, getSortedPostsData } from '../../../lib/posts';
+import React from "react";
+import Link from "next/link";
+import { getPostData } from "../../../lib/posts";
 
-export async function generateStaticParams() {
-  const posts = await getSortedPostsData();
-  return posts.map((post) => ({
-    id: post.id,
-  }));
-}
+import "./style.css";
 
 export default async function Post({ params }: { params: { id: string } }) {
   const postData = await getPostData(params.id);
-  
+
   return (
-    <article>
-      <h1>{postData.title}</h1>
-      <div>{postData.date}</div>
-      <div dangerouslySetInnerHTML={{ __html: postData.content }} />
+    <article className="h-96">
+      <Link href="/blogs" className="underline">
+        Retour
+      </Link>
+
+      <div className="mt-4 mb-12">
+        <h1 className="text-xl font-medium text-black">{postData.title}</h1>
+
+        <p className="text-secondaryText text-sm">{postData.date}</p>
+      </div>
+
+      <div
+        dangerouslySetInnerHTML={{ __html: postData.content }}
+        className="markdown"
+      />
     </article>
   );
 }
