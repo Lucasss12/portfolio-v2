@@ -121,7 +121,7 @@ const DockIcon = ({
       ref={ref}
       style={{ width }}
       className={cn(
-        "relative flex aspect-square cursor-pointer items-center justify-center rounded-full",
+        `relative flex aspect-square cursor-pointer items-center justify-center rounded-full`,
         className,
       )}
       onMouseEnter={() => setHover(true)}

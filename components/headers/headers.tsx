@@ -46,7 +46,7 @@ export default function headers() {
             <Image alt="Logo Next.js" src="/icons/next.svg" className="!mr-1" width="14" height="14"/>
             Next.js
           </Badge>,
-          {` pour offrir à vos utilisateurs une expérience web unique.`}
+          {` pour offrir à vos utilisateurs une expérience web unique et dans l'air du temps.`}
         </p>
 
         <div>

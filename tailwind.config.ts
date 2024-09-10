@@ -37,7 +37,7 @@ const config = {
       colors: {
         mainBg: '#f2f2f2',
         bgCardWork: '#fbfbfb',
-        secondaryText: '#6b737e',
+        secondaryText: '#5c626a',
         greenAccent: '#4ade80',
       },
       screens: {

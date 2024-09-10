@@ -9,9 +9,9 @@ export default function footer() {
       </div>
 
       <div className='flex items-center gap-2'>
-         <Link className='hover:text-secondaryText hover:underline' href='/'>Github</Link>
-         <Link className='hover:text-secondaryText hover:underline' href='/'>LinkedIn</Link>
-         <Link className='hover:text-secondaryText hover:underline' href='/'>Malt</Link>
+         <Link className='hover:underline' href='/'>Github</Link>
+         <Link className='hover:underline' href='/'>LinkedIn</Link>
+         <Link className='hover:underline' href='/'>Malt</Link>
       </div>
     </div>
   )

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function me() {
   return (
-    <div className="sm:mt-20 mt-12 text-secondaryText">
+    <div id='about' className="sm:mt-20 mt-12 text-secondaryText">
       <h3 className="text-xl font-medium mb-4 text-black">Qui suis-je ?</h3>
       <p>
         Bonjour 👋, moi c’est Lucas, développeur web de 22 ans. <br/>

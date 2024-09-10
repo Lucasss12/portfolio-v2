@@ -5,12 +5,11 @@ export default function services() {
    const servicesOffered = [
       "+ Création de sites web",
       "+ Refonte de sites web",
-      "+ Conception de maquettes figma",
+      "+ Conception de maquette figma",
       "+ Amélioration de maquette figma",
       "+ UI/UX Design",
       "+ Optimisation des performances web",
-      "+ Développement mobile (prochainement)",
-      "+ No-code (prochainement)",
+      "+ No-code ( prochainement )",
    ];
 
   return (
