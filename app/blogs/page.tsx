@@ -6,7 +6,7 @@ export default async function Blog() {
   const posts = await getSortedPostsData();
 
   return (
-    <div className="h-96">
+    <div className="h-96 sm:mx-auto mx-5 max-w-screen-sm">
       <h3 className="text-xl font-medium mb-4 text-black">
         Mes derniers blogs
       </h3>

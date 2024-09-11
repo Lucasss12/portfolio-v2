@@ -16,32 +16,30 @@ export default function recentWork() {
         </button>
       </div>
 
-      <div>
-        <Link href="https://naxt.fr/" target="_blank">
-          <div className="p-3 rounded-xl bg-bgCardWork hover:bg-neutral-100">
-            <Image width={1200} height={1} alt="Page d'accueil de Naxt" src="/images/home-page-naxt.webp" className="w-fit border border-slate-200 rounded-lg shadow-sm"/>
+      <Link href="https://naxt.fr/" target="_blank">
+        <div className="p-3 rounded-xl bg-bgCardWork hover:bg-neutral-100 border border-slate-200 border-opacity-70">
+          <Image width={1200} height={1} alt="Page d'accueil de Naxt" src="/images/home-page-naxt.webp" className="w-fit  rounded-lg shadow-sm"/>
 
-            <div className="flex justify-between items-center mt-2">
-              <span className="flex items-center text-lg w-fit hover:underline">
-                Naxt.fr
-                <Image width={16} height={16} src="icons/link.svg" alt="Icon de lien" className="ml-1"/>
-              </span>
+          <div className="flex justify-between items-center mt-2">
+            <span className="flex items-center text-lg w-fit hover:underline">
+              Naxt.fr
+              <Image width={16} height={16} src="icons/link.svg" alt="Icon de lien" className="ml-1"/>
+            </span>
 
-              <p className="text-sm text-secondaryText text-opacity-65">2023 - 2024</p>
-            </div>
-
-            <p className="text-secondaryText">UI/UX - Front-end</p>
-
-            <div className="flex flex-wrap items mt-1">
-              <CardInfo title="Freelance" />
-              <CardInfo title="E-commerce" />
-              <CardInfo title="React" />
-              <CardInfo title=" Next.js" />
-              <CardInfo title="Tailwind" />
-            </div>
+            <p className="text-sm text-secondaryText text-opacity-65">2023 - 2024</p>
           </div>
-        </Link>
-      </div>
+
+          <p className="text-secondaryText">UI/UX - Front-end</p>
+
+          <div className="flex flex-wrap items mt-1">
+            <CardInfo title="Freelance" />
+            <CardInfo title="E-commerce" />
+            <CardInfo title="React" />
+            <CardInfo title=" Next.js" />
+            <CardInfo title="Tailwind" />
+          </div>
+        </div>
+      </Link>
     </div>
   );
 }

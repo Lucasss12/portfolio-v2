@@ -9,7 +9,7 @@ import Faqs from "@/components/faqs/faqs";
 
 export default function Home() {
   return (
-    <div>
+    <div className="sm:mx-auto mx-5 max-w-screen-sm">
       <Headers />
       <RecentWork />
       <WorkHistory />

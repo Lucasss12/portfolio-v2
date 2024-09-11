@@ -5,7 +5,7 @@ import { remark } from 'remark';
 import html from 'remark-html';  
 
 // Chemin du dossier où se trouvent les articles Markdown
-const postsDirectory = path.join(process.cwd(), 'content');
+const postsDirectory = path.join(process.cwd(), 'content/blogs');
 
 // Interface TypeScript pour définir la structure des données d'un article
 export interface PostData {
