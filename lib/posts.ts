@@ -12,6 +12,8 @@ export interface PostData {
   id: string; // Identifiant de l'article (nom du fichier sans extension)
   title: string; // Titre de l'article (provenant des métadonnées)
   date: string; // Date de publication de l'article (provenant des métadonnées)
+  description?: string; // Optionnel si tu veux ajouter une description
+  infos?: string[]; 
   content: string; // Contenu de l'article en HTML
 }
 
