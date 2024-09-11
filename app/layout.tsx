@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="fr">
-      <body className={`${inter.className} lg:mx-auto mx-5 max-w-screen-lg sm:mt-24 mt-16 mb-24`}>
+      <body className={`${inter.className} sm:mt-24 mt-16 mb-24`}>
         <NextUIProvider>
           {children}
           <SpeedInsights />
