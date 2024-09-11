@@ -2,6 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { getSortedPostsData, PostData } from "../../lib/posts";
 
+export const metadata = {
+  title: "Lucas • Blogs",
+  description: "Lucas • Blogs",
+};
+
 export default async function Blog() {
   const posts = await getSortedPostsData();
 
