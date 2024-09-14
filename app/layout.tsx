@@ -17,6 +17,9 @@ export const metadata: Metadata = {
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="fr">
+     <head>
+       <meta name="google-site-verification" content="orp_ncebSfcvhoEocsG4L6QNgXyGAFtJdWkaMsG6VNk" />
+     </head>
       <body className={`${inter.className} sm:mt-24 mt-16 mb-24`}>
         <NextUIProvider>
           {children}
