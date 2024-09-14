@@ -11,7 +11,7 @@ const inter = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Lucas • Méné",
-  description: "Lucas • Méné",
+  description: "Bonjour 👋, moi c’est Lucas, développeur web de 22 ans.",
 };
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
