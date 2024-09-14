@@ -17,7 +17,7 @@ export default async function Blog() {
       </h3>
       <div>
         {posts.map((post: PostData, index) => (
-          <Link href={`/blogs/${post.id}`} key={post.id} className={`flex items-start sm:items-center py-4 ${ index !== posts.length - 1 ? "border-b " : ""}`}>
+          <Link href={`/blogs/${post.id}`} key={post.id} className={`hover:text-blue-500 flex items-start sm:items-center py-4 ${ index !== posts.length - 1 ? "border-b " : ""}`}>
             <p className="text-secondaryText pr-8 whitespace-nowrap">{post.date}</p>
             {post.title}
           </Link>

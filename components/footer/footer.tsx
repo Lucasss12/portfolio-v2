@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function footer() {
   return (
-    <div className='mt-12 flex justify-between items-center sm:mx-auto mx-5 max-w-screen-sm'>
+    <div className='mt-8 flex justify-between items-center sm:mx-auto mx-5 max-w-screen-sm'>
       <div>
          <p>Lucas • 2024</p>
       </div>

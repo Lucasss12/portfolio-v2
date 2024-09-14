@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi faire un blog en 2024 ?"
+title: "Pourquoi faire un blog en tant que développeur en 2024 ?"
 date: "11-09-2024"
 description: "Pourquoi faire un blog en 2024 ?"
 infos: [react, next]
