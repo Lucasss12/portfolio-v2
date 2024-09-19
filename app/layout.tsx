@@ -10,8 +10,8 @@ import Footer from "@/components/footer/footer";
 const inter = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lucas • Méné",
-  description: "Bonjour 👋, moi c’est Lucas, développeur web de 22 ans.",
+  title: "Lucas Méné - Portfolio",
+  description: "Bonjour 👋, moi c’est Lucas, développeur web front-end",
 };
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {

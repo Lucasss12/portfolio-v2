@@ -1,10 +1,26 @@
 [
   {
-    "id": 1,
+    "id": 3,
     "title": "Page inscription",
     "date": "Septembre 2024",
     "tags": ["Figma"],
     "image": "/projects/daily-1.2.webp",
     "link": "https://dribbble.com/shots/24361150-Daily-Ui-001-Sign-Up"
+  },
+  {
+    "id": 2,
+    "title": "Naxt",
+    "date": "Mars 2024",
+    "tags": ["Next.js", "Tailwind CSS"],
+    "image": "/projects/naxt.webp",
+    "link": "https://naxt.fr/"
+  },
+  {
+    "id": 1,
+    "title": "Truffières Saint-Martin",
+    "date": "Janvier 2023",
+    "tags": ["React"],
+    "image": "/projects/tsm.webp",
+    "link": "https://truffieressaintmartin.com/"
   }
 ]
