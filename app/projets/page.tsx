@@ -2,19 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 
 import CardInfo from "@/components/recentWork/ui/cardInfo";
-import projects from "@/content/projects.json";
+import projets from "@/content/projets.json";
 
 export const metadata = {
-  title: "Lucas • Projects",
-  description: "Lucas • Projects",
+  title: "Lucas • projets",
+  description: "Lucas • projets",
 };
 
-export default function Projects() {
-  const sortedProjects = projects.sort((a, b) => b.id - a.id);
+export default function Projets() {
+  const sortedProjets = projets.sort((a, b) => b.id - a.id);
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mx-auto mx-5 max-w-screen-lg">
-      {sortedProjects.map((project) => (
+      {sortedProjets.map((project) => (
         <Link href={project.link} key={project.id}
           className="p-4 rounded-xl bg-bgCardWork hover:bg-neutral-100 border border-slate-200 border-opacity-70">
           

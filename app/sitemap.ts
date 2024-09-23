@@ -24,7 +24,7 @@ async function fetchDynamicUrls() {
         priority: 1,
       },
       {
-        url: 'https://lucas-mene.vercel.app/projects',
+        url: 'https://lucas-mene.vercel.app/projets',
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.8,

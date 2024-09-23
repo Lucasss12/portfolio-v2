@@ -13,8 +13,8 @@ export function DockDemo() {
         <DockIcon href="/blogs" tooltipText="Blogs">
           <Icons.blog className="size-3" />
         </DockIcon>
-        <DockIcon href="/projects" tooltipText="Projecs">
-          <Icons.projects className="size-5" />
+        <DockIcon href="/projets" tooltipText="Projets">
+          <Icons.projets className="size-5" />
         </DockIcon>
         <DockIcon
           href="https://github.com/Lucasss12"
@@ -83,7 +83,7 @@ const Icons = {
       <path d="M16 2v20" />
     </svg>
   ),
-  projects: (props: IconProps) => (
+  projets: (props: IconProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       {...props}

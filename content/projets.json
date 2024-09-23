@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Naxt",
     "date": "Mars 2024",
-    "tags": ["Next.js", "Tailwind CSS"],
+    "tags": ["React", "Next.js", "Tailwind CSS"],
     "image": "/projects/naxt.webp",
     "link": "https://naxt.fr/"
   },
