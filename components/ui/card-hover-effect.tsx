@@ -67,14 +67,14 @@ export const Card = ({
       )}
     >
       <div className="relative z-50">
-        <div className="p-4">{children}</div>
+        <div className="px-4 py-6">{children}</div>
       </div>
     </div>
   );
 };
 export const CardTitle = ({className,title, icon}: {className?: string;title: string; icon: string}) => {
   return (
-    <h4 className={cn("text-white font-medium tracking-wide mt-4 flex items-center justify-start gap-1", className)}>
+    <h4 className={cn("text-white font-medium tracking-wide flex items-center justify-start gap-1", className)}>
       <Image src={icon} alt={`Logo ${title}`} width={16} height={16} />
       {title}
     </h4>
