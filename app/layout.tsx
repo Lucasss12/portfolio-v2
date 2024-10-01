@@ -11,7 +11,7 @@ import Footer from "@/components/footer/footer";
 const inter = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lucas Méné | Développeur web front-end",
+  title: "Lucas Méné | Portfolio",
   description: "Bonjour 👋, moi c’est Lucas, développeur web front-end",
 };
 
