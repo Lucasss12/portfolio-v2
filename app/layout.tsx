@@ -11,8 +11,24 @@ import Footer from "@/components/footer/footer";
 const inter = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lucas Méné | Portfolio",
+  title: "Lucas Mene | Portfolio",
   description: "Bonjour 👋, moi c’est Lucas, développeur web front-end",
+  openGraph: {
+    title: "Lucas Mene | Portfolio",
+    description: "Bonjour 👋, moi c’est Lucas, développeur web front-end",
+    type: "website",
+    locale: "fr_FR",
+    images: [
+      {
+        url: "/images/home-page.png",
+        width: 1200,
+        height: 630,
+        alt: "Lucas",
+      },
+    ],
+    url: "https://lucas-mene.vercel.app/",
+    siteName: "Lucas Mene | Portfolio",
+  },
 };
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
