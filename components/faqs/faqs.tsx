@@ -11,7 +11,7 @@ const faqsData: FAQ[] = [
   {
     question: "Quel type de site web puis-je créer ?",
     answer:
-      "Je peux créer tout type de sites web : des sites vitrines, des blogs, des sites e-commerce, des landing pages, des portfolios, et bien plus encore. Pour savoir si je peux réaliser votre site web, n'hésitez pas à me contacter.",
+      "Je peux créer tout type de sites web : des sites vitrines, des blogs, des sites e-commerce, des landing pages, des portfolios, et bien plus encore.",
   },  
   {
     question: "Quel type de maquette Figma puis-je créer ?",
