@@ -5,8 +5,8 @@ import CardInfo from "@/components/recentWork/ui/cardInfo";
 import projets from "@/content/projets.json";
 
 export const metadata = {
-  title: "Lucas • projets",
-  description: "Lucas • projets",
+  title: "Lucas • Projets",
+  description: "Lucas • Projets",
 };
 
 export default function Projets() {

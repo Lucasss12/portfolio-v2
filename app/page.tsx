@@ -1,4 +1,4 @@
-import Headers from "../components/headers/headers";
+import Headers from "@/components/headers/headers";
 import RecentWork from "@/components/recentWork/recentWork";
 import WorkHistory from "@/components/workHistory/workHistory";
 import HowWeWork from "@/components/howWeWork/howWeWork";
