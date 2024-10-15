@@ -17,7 +17,7 @@ export default function recentWork() {
       </div>
 
       <Link href="https://naxt.fr/" target="_blank">
-        <div className="p-5 rounded-xl bg-bgCardWork hover:bg-neutral-100 border border-slate-200 border-opacity-70">
+        <div className="p-4 rounded-xl bg-bgCardWork hover:bg-neutral-100 border border-slate-200 border-opacity-70">
           <Image width={1200} height={1} alt="Page d'accueil de Naxt" src="/images/home-page-naxt.webp" className="border border-slate-200 border-opacity-100 w-fit rounded-lg shadow-sm"/>
 
           <div className="flex justify-between items-center mt-2">
