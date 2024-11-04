@@ -32,7 +32,6 @@ export default function recentWork() {
           <p className="text-secondaryText">UI/UX - Front-end</p>
 
           <div className="flex flex-wrap items mt-1">
-            <CardInfo title="Freelance" />
             <CardInfo title="E-commerce" />
             <CardInfo title="React" />
             <CardInfo title=" Next.js" />
