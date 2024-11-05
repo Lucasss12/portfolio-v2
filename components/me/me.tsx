@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function me() {
@@ -20,6 +21,11 @@ export default function me() {
         choisi de me spécialiser dans le développement <span className="underline text-black">front-end</span> et de me lancer
         dans le freelancing.
       </p>
+
+      <a href="/CV | Lucas Méné.pdf" download="CV | Lucas Méné.pdf" className="mt-4 w-fit flex items-center py-1 px-2 rounded-md bg-black text-white text-sm hover:-translate-y-1 transform transition duration-200">
+        mon CV
+        <Image width={16} height={16} src="/icons/download.svg" alt="Download" className="ml-1"/>
+      </a>
     </div>
   );
 }

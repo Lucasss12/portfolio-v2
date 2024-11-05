@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* styles.css */
-.custom-gradient {
-   background: rgb(16,119,215);
-   background: linear-gradient(85deg, rgba(16,119,215,0.85) 50%, rgba(151,197,248,1) 100%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
-
-/* globals.css */
 .font-regular {
    font-weight: 400;
  }
@@ -18,21 +9,7 @@
  .font-bold {
    font-weight: 500;
  }
- 
- .inner-shadow {
-  box-shadow: inset 0 4px 4px rgba(255, 255, 255, 0.6);
-}
-
-@keyframes spin-slow {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.spin-slow {
-  animation: spin-slow 6s linear infinite;
-}
 
 html {
   scroll-behavior: smooth;
 }
-

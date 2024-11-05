@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   description: "Bonjour 👋, moi c’est Lucas, développeur web front-end",
   openGraph: {
     title: "Lucas Mene | Portfolio",
-    description: "Bonjour 👋, moi c’est Lucas, développeur web front-end",
+    description: "Bonjour 👋 moi c’est Lucas, développeur web front-end",
     type: "website",
     locale: "fr_FR",
     images: [
       {
-        url: "/images/home-page.png",
+        url: "/images/OG.webp",
         width: 1200,
         height: 630,
         alt: "Lucas",
