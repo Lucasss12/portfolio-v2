@@ -26,7 +26,7 @@ export default function recentWork() {
               {/* <Image width={14} height={14} src="icons/link.svg" alt="Icon de lien" className="ml-1"/> */}
             </span>
 
-            <p className="text-sm text-secondaryText text-opacity-65">2023 - 2024</p>
+            <p className="text-sm text-secondaryText text-opacity-65">Nov. 2023 - Oct. 2024</p>
           </div>
 
           <p className="text-secondaryText">UI/UX - Front-end</p>

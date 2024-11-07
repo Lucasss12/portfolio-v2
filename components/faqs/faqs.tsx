@@ -63,7 +63,7 @@ function AccordionItem({ faq }: AccordionItemProps) {
         </span>
       </button>
       <div className={`transition-max-height duration-500 ease-in-out overflow-hidden ${ isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0' }`}>
-        <div className="pb-4 text-secondaryText">{faq.answer}</div>
+        <p className="pb-4 text-secondaryText">{faq.answer}</p>
       </div>
     </div>
   );

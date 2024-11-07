@@ -4,22 +4,22 @@ const works = [
   {
     company: "Naxt",
     position: "UI/UX - front-end",
-    date: "2023 - 2024",
+    date: "Nov. 2023 - Oct. 2024",
   },
   {
     company: "SUZUKI",
     position: "Front-end",
-    date: "2023 - 2023",
+    date: "Aou. 2023 - Sep. 2023",
   },
   {
     company: "LessonSharing",
     position: "Formateur React",
-    date: "2023 - 2023",
+    date: "Mai. 2023 - Jui. 2023",
   },
   {
     company: "Truffières Saint Martin",
     position: "Développeur fullstack",
-    date: "2022 - 2022",
+    date: "Nov. 2022 - Déc. 2022",
   },
 ];
 
