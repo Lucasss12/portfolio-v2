@@ -36,7 +36,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
         <meta name="description" content="Bonjour 👋, moi c’est Lucas, développeur web front-end" />
         <meta name="google-site-verification" content="kvmHWGV2PSE7k3xh2yjet5KncWHxQOw-3Lop8OEfadk" />
         <title>Lucas Méné | Développeur web front-end</title>
-        <link rel="icon" href="/images/favicon.svg" type="image/x-icon" />
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
       </head>
       <body className={`${inter.className} sm:mt-24 mt-16 mb-24`}>
         <NextUIProvider>

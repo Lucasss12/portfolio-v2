@@ -4,7 +4,7 @@ const nextConfig = {
     metadataBase: 'https://lucas-mene.vercel.app/',
   },
   images: {
-    domains: ['https://lucas-mene.vercel.app/'], 
+    domains: 'https://lucas-mene.vercel.app/', 
   },
 };
 
