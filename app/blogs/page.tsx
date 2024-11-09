@@ -3,8 +3,8 @@ import Link from "next/link";
 import { getSortedPostsData, PostData } from "../../lib/posts";
 
 export const metadata = {
-  title: "Lucas • Blogs",
-  description: "Lucas • Blogs",
+  title: "Lucas Méné • Blogs",
+  description: "Lucas Méné • découvrez mes derniers blogs parlant de développement web, de design et bien plus encore.",
 };
 
 export default async function Blog() {

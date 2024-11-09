@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import {Image} from "@nextui-org/react";
 
 import CardInfo from "./ui/cardInfo";
 
@@ -17,13 +17,12 @@ export default function recentWork() {
       </div>
 
       <Link href="https://naxt.fr/" target="_blank">
-        <div className="p-4 rounded-xl bg-bgCardWork hover:bg-neutral-100 border border-slate-200 border-opacity-70">
-          <Image width={1200} height={1} alt="Page d'accueil de Naxt" src="/images/home-page-naxt.webp" className="border border-slate-200 border-opacity-100 w-fit rounded-lg shadow-sm"/>
+        <div className="p-3 rounded-[20px] border border-slate-200 border-opacity-70 shadow-sm w-fit bg-bgCardWork">
+          <Image alt="Page d'accueil de Naxt" src="/images/home-page-naxt.webp" className="border border-slate-200 border-opacity-100 w-fit rounded-lg shadow-sm"/>
 
           <div className="flex justify-between items-center mt-2">
             <span className="flex items-center text-lg w-fit">
               Naxt.fr
-              {/* <Image width={14} height={14} src="icons/link.svg" alt="Icon de lien" className="ml-1"/> */}
             </span>
 
             <p className="text-sm text-secondaryText text-opacity-65">Nov. 2023 - Oct. 2024</p>

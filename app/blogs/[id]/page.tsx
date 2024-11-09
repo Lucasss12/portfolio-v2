@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const postData = await getPostData(params.id);
   
   return {
-    title: `Lucas • ${postData.title}`,
+    title: `Lucas Méné • ${postData.title}`,
     description: postData.description,
   };
 }

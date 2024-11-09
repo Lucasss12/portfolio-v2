@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import {NextUIProvider} from "@nextui-org/react";
+import { NextUIProvider } from "@nextui-org/react";
 import { Rubik } from "next/font/google";
 import "./globals.css";
 
@@ -10,10 +9,10 @@ import Footer from "@/components/footer/footer";
 const inter = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lucas Mene | Portfolio",
+  title: "Lucas Méné • Portfolio",
   description: "Bonjour 👋, moi c’est Lucas, développeur web front-end",
   openGraph: {
-    title: "Lucas Mene | Portfolio",
+    title: "Lucas Méné • Portfolio",
     description: "Bonjour 👋 moi c’est Lucas, développeur web front-end",
     type: "website",
     locale: "fr_FR",
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
       },
     ],
     url: "https://lucas-mene.vercel.app/",
-    siteName: "Lucas Mene | Portfolio",
+    siteName: "Lucas Méné • Portfolio",
   },
 };
 
@@ -37,11 +36,11 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
         <meta name="description" content="Bonjour 👋, moi c’est Lucas, développeur web front-end" />
         <meta name="google-site-verification" content="kvmHWGV2PSE7k3xh2yjet5KncWHxQOw-3Lop8OEfadk" />
         <title>Lucas Méné | Développeur web front-end</title>
+        <link rel="icon" href="/images/favicon.svg" type="image/x-icon" />
       </head>
       <body className={`${inter.className} sm:mt-24 mt-16 mb-24`}>
         <NextUIProvider>
           {children}
-          <SpeedInsights />
           <DockDemo />
         </NextUIProvider>
         <Footer/>

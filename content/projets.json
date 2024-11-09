@@ -19,7 +19,7 @@
     "id": 1,
     "title": "Truffières Saint-Martin",
     "date": "Janvier 2023",
-    "tags": ["React"],
+    "tags": ["React", "Css"],
     "image": "/projects/tsm.webp",
     "link": "https://truffieressaintmartin.com/"
   }

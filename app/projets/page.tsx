@@ -1,28 +1,27 @@
-import Image from "next/image";
+import {Image} from "@nextui-org/react";
 import Link from "next/link";
 
 import CardInfo from "@/components/recentWork/ui/cardInfo";
 import projets from "@/content/projets.json";
 
 export const metadata = {
-  title: "Lucas • Projets",
-  description: "Lucas • Projets",
+  title: "Lucas Méné • Projets",
+  description: "Lucas Méné • Découvrez mes projets, sites web, maquettes figma et bien plus encore.",
 };
 
 export default function Projets() {
   const sortedProjets = projets.sort((a, b) => b.id - a.id);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:mx-auto mx-5 max-w-screen-lg">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:mx-auto mx-5 max-w-screen-lg">
       {sortedProjets.map((project) => (
         <Link href={project.link} key={project.id}
-          className="p-4 rounded-xl bg-bgCardWork hover:bg-neutral-100 border border-slate-200 border-opacity-70">
+          className="p-3 rounded-[20px] border border-slate-200 border-opacity-70 shadow-sm w-fit bg-white hover:bg-bgCardWork">
           
           <Image
             src={project.image}
             alt={project.title}
-            height={500}
-            width={500}
+            isZoomed
             className="rounded-lg"/>
 
           <div className="flex justify-between items-center mt-2">

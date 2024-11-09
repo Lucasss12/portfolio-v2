@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  experimental: {
+    metadataBase: 'https://lucas-mene.vercel.app/',
+  },
+};
 
 export default nextConfig;
