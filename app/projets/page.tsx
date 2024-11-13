@@ -24,7 +24,7 @@ export default function Projets() {
               alt={project.title}
               width={600}
               height={400}
-              className="transform transition duration-300 ease-in-out hover:scale-110 object-cover"
+              className="transform transition duration-300 ease-in-out hover:scale-125 object-cover"
             />
           </div>
 
