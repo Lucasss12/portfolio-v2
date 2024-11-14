@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     images: [
       {
-        url: "/images/OG.webp",
+        url: "/images/OG.png",
         width: 1200,
         height: 630,
         alt: "Lucas",
