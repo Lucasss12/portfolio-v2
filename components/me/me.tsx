@@ -22,7 +22,7 @@ export default function me() {
         dans le freelancing.
       </p>
 
-      <a href="/CV | Lucas Méné.pdf" download="CV | Lucas Méné.pdf" className="mt-2 w-fit flex items-center py-1 px-2 rounded-md bg-black text-white text-sm hover:-translate-y-1 transform transition duration-200">
+      <a href="/CV | Lucas Méné.pdf" download="CV | Lucas Méné.pdf" className="mt-2 w-fit flex items-center py-1 px-2 rounded-md bg-mainGrey button-inner-shadow-sm text-white text-sm hover:-translate-y-1 transform transition duration-200">
         CV
         <Image width={16} height={16} src="/icons/download.svg" alt="Download" className="ml-1"/>
       </a>

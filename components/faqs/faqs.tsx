@@ -55,7 +55,7 @@ function AccordionItem({ faq }: AccordionItemProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b border-slate-200">
+    <div className="border-b border-neutral-200">
       <button className="flex justify-between w-full py-4" onClick={() => setIsOpen(!isOpen)}>
         {faq.question}
         <span className={`transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>

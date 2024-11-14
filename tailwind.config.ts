@@ -35,10 +35,11 @@ const config = {
         'custom': 'rgba(99, 99, 99, 0.15) 0px 2px 4px 0px',
       },
       colors: {
-        mainBg: '#f2f2f2',
         bgCardWork: '#fbfbfb',
         secondaryText: '#5c626a',
         greenAccent: '#4ade80',
+        mainGrey: '#302C2C',
+        secondaryGrey: '#424040',
       },
       screens: {
         'sm': '700px',

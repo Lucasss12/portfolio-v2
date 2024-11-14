@@ -3,8 +3,8 @@ import { NextUIProvider } from "@nextui-org/react";
 import { Rubik } from "next/font/google";
 import "./globals.css";
 
-import {DockDemo} from "../components/dock/dock";
-import Footer from "@/components/footer/footer";
+import {DockDemo} from "../components/layout/dock/dock";
+import Footer from "@/components/layout/footer/footer";
 
 const inter = Rubik({ subsets: ["latin"] });
 

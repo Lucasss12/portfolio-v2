@@ -14,7 +14,7 @@ function Badge({ className = "", ...props }: BadgeProps) {
     <Link
       {...props}
       target="_blank"
-      className={`inline-flex items-center border border-slate-200 bg-mainBg bg-opacity-50 text-black text-sm rounded-md p-1 leading-4 no-underline ${className}`}
+      className={`inline-flex items-center border border-neutral-200 bg-neutral-50 bg-opacity-50 text-black text-sm rounded-md p-1 leading-4 no-underline ${className}`}
     />
   );
 }
@@ -29,7 +29,7 @@ export default function headers() {
         </div>
 
         <p className="mb-4 text-base text-secondaryText">
-        <span className='font-medium text-black'>Développeur front-end. {" "}</span> <br/>
+        <span className='text-xl font-medium text-black'>Développeur front-end. {" "}</span> <br/>
           {/* {`Je suis développeur `} <span className="text-black underline">front-end</span>. */}
           {` J'imagine et design votre site avec `}
           <Badge href="https://www.figma.com/fr-fr/">

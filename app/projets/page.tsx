@@ -16,7 +16,7 @@ export default function Projets() {
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:mx-auto mx-5 max-w-screen-lg">
       {sortedProjets.map((project) => (
         <Link href={project.link} key={project.id}
-          className="p-3 rounded-[20px] border border-slate-200 border-opacity-70 shadow-sm w-fit bg-white hover:bg-bgCardWork">
+          className="p-3 rounded-[20px] border border-neutral-200 border-opacity-70 shadow-sm w-fit bg-white hover:bg-bgCardWork">
           
           <div className="overflow-hidden rounded-lg">
             <Image
