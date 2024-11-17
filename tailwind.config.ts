@@ -39,7 +39,6 @@ const config = {
         secondaryText: '#5c626a',
         greenAccent: '#4ade80',
         mainGrey: '#302C2C',
-        secondaryGrey: '#424040',
       },
       screens: {
         'sm': '700px',
