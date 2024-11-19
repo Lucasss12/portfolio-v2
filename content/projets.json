@@ -1,5 +1,29 @@
 [
   {
+    "id": 6,
+    "title": "Dashboard freelance",
+    "date": "Septembre 2024",
+    "tags": ["Figma"],
+    "image": "/projects/dashboard-freelance.webp",
+    "link": "https://dribbble.com/shots/25212350-Dashboard-freelance"
+  },
+  {
+    "id": 5,
+    "title": "Page inscription",
+    "date": "Septembre 2024",
+    "tags": ["Figma"],
+    "image": "/projects/sign-up.webp",
+    "link": "https://dribbble.com/shots/25212347-Sign-Up"
+  },
+  {
+    "id": 4,
+    "title": "Naxt",
+    "date": "Mars 2024",
+    "tags": ["React", "Next.js", "Tailwind CSS"],
+    "image": "/projects/naxt.webp",
+    "link": "https://naxt.fr/"
+  },
+  {
     "id": 3,
     "title": "Page inscription",
     "date": "Septembre 2024",
@@ -9,11 +33,11 @@
   },
   {
     "id": 2,
-    "title": "Naxt",
-    "date": "Mars 2024",
-    "tags": ["React", "Next.js", "Tailwind CSS"],
-    "image": "/projects/naxt.webp",
-    "link": "https://naxt.fr/"
+    "title": "The Packing Hroject",
+    "date": "Mars 2033",
+    "tags": ["React", "Css"],
+    "image": "/projects/tph.webp",
+    "link": "https://the-packing-hroject-8rmg.vercel.app/"
   },
   {
     "id": 1,
