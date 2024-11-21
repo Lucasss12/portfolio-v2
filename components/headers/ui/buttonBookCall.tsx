@@ -9,7 +9,7 @@ export default function buttonBookCall({ children }: ButtonBookCallProps) {
   return (
     <>
       <Link href="https://cal.com/lucas-mene" target="_blank">
-        <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-mainGrey px-5 py-3 font-medium text-white button-inner-shadow">
+        <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-black px-5 py-3 font-medium text-white">
           <div className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] group-hover:duration-500 group-hover:[transform:skew(-12deg)_translateX(100%)]">
             <div className="relative h-full w-8 bg-white/20"></div>
           </div>

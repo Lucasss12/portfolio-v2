@@ -10,7 +10,7 @@ export default function recentWork() {
       <div className="flex justify-between items-center mb-4">
         <h3 className="text-xl font-medium">Mon dernier projet</h3>
 
-        <Link href="/projets" className="flex items-center py-1 px-2 rounded-md bg-mainGrey button-inner-shadow-sm text-white text-sm hover:-translate-y-1 transform transition duration-200">
+        <Link href="/projets" className="flex items-center py-1 px-2 rounded-md bg-black text-white text-sm hover:-translate-y-1 transform transition duration-200">
           Mes projets
           <Image
             width={16}
