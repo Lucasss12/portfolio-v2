@@ -23,7 +23,7 @@ export default async function Post({ params }: Props) {
   const postData = await getPostData(params.id);
 
   return (
-    <article className="min-h-96 sm:mx-auto mx-5 max-w-screen-sm">
+    <article className="sm:mx-auto mx-5 max-w-screen-sm min-h-[1000px]">
       <Link href="/blogs" className="underline">
         Retour
       </Link>

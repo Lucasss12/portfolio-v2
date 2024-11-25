@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import CardInfo from "./ui/cardInfo";
+import Button from "../ui/button";
 
 export default function recentWork() {
   return (
@@ -10,16 +11,16 @@ export default function recentWork() {
       <div className="flex justify-between items-center mb-4">
         <h3 className="text-xl font-medium">Mon dernier projet</h3>
 
-        <Link href="/projets" className="flex items-center py-1 px-2 rounded-md bg-black text-white text-sm hover:-translate-y-1 transform transition duration-200">
+        <Button url="projets" size="small">
           Mes projets
           <Image
             width={16}
             height={16}
             src="/icons/chevrons-right.svg"
             alt="Chevron droit"
-            className="ml-1"
-          />
-        </Link>
+            className="ml-1"/>
+        </Button>
+
       </div>
 
       <Link href="https://naxt.fr/" target="_blank">
@@ -47,7 +48,7 @@ export default function recentWork() {
 
       <div className="flex flex-wrap items mt-1">
         <CardInfo title="E-commerce" />
-        <CardInfo title="React" />
+        <CardInfo title="React.js" />
         <CardInfo title=" Next.js" />
         <CardInfo title="Tailwind" />
       </div>

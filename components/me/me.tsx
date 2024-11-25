@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 
+import Button from "../ui/button";
+
 export default function me() {
   return (
     <div id='about' className="sm:mt-20 mt-12 text-secondaryText">
@@ -22,10 +24,17 @@ export default function me() {
         dans le freelancing.
       </p>
 
-      <a href="/CV | Lucas Méné.pdf" download="CV | Lucas Méné.pdf" className="mt-2 w-fit flex items-center py-1 px-2 rounded-md text-white text-sm hover:-translate-y-1 transform transition duration-200 bg-black">
-        CV
-        <Image width={16} height={16} src="/icons/download.svg" alt="Download" className="ml-1"/>
-      </a>
+      <div className="mt-2">
+        <Button url="/CV | Lucas Méné.pdf" target="_blank" size="small">
+          Voir mon CV
+          <Image
+            width={16}
+            height={16}
+            src="/icons/arrow-down-to-line.svg"
+            alt="Download"
+            className="ml-1 mt-[-2px]"/>
+        </Button>
+      </div>
     </div>
   );
 }

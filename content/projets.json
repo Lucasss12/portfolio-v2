@@ -19,7 +19,7 @@
     "id": 4,
     "title": "Naxt",
     "date": "Mars 2024",
-    "tags": ["React", "Next.js", "Tailwind CSS"],
+    "tags": ["React.js", "Next.js", "Tailwind CSS"],
     "image": "/projects/naxt.webp",
     "link": "https://naxt.fr/"
   },
@@ -35,7 +35,7 @@
     "id": 2,
     "title": "The Packing Hroject",
     "date": "Mars 2033",
-    "tags": ["React", "Css"],
+    "tags": ["React.js", "Css"],
     "image": "/projects/tph.webp",
     "link": "https://the-packing-hroject-8rmg.vercel.app/"
   },
@@ -43,7 +43,7 @@
     "id": 1,
     "title": "Truffières Saint-Martin",
     "date": "Janvier 2023",
-    "tags": ["React", "Css"],
+    "tags": ["React.js", "Css"],
     "image": "/projects/tsm.webp",
     "link": "https://truffieressaintmartin.com/"
   }

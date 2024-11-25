@@ -1,8 +1,9 @@
 import React from "react";
-import Available from "./ui/available";
-import ButtonBookCall from "./ui/buttonBookCall";
-import Link, { LinkProps } from "next/link";
 import Image from "next/image";
+import Link, { LinkProps } from "next/link";
+
+import Available from "./ui/available";
+import Button from "../ui/button";
 
 interface BadgeProps extends LinkProps {
   className?: string;
@@ -50,7 +51,7 @@ export default function headers() {
         </p>
 
         <div>
-          <ButtonBookCall>Réserver un appel</ButtonBookCall>
+          <Button url="https://cal.com/lucas-mene" target="_blank" size="base">Réserver un appel</Button>
         </div>
       </div>
     </div>
