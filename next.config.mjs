@@ -1,10 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    metadataBase: 'https://lucas-mene.vercel.app/',
-  },
   images: {
-    domains: ['https://lucas-mene.vercel.app/'], 
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'https://lucas-mene.vercel.app/',
+        pathname: '/**',
+      },
+    ],
   },
 };
 

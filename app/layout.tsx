@@ -11,6 +11,7 @@ const inter = Rubik({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Lucas Méné • Portfolio",
   description: "Bonjour 👋, moi c’est Lucas, développeur web front-end",
+  metadataBase: new URL("https://lucas-mene.vercel.app"), 
   openGraph: {
     title: "Lucas Méné • Portfolio",
     description: "Bonjour 👋 moi c’est Lucas, développeur web front-end",
@@ -28,6 +29,7 @@ export const metadata: Metadata = {
     siteName: "Lucas Méné • Portfolio",
   },
 };
+
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
