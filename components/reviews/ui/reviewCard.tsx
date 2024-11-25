@@ -11,7 +11,7 @@ type ReviewCardProps = {
 export default function ReviewCard({ text, name, title, imageSrc }: ReviewCardProps
 ) {
   return (
-    <div className="p-4 rounded-xl bg-bgCardWork hover:bg-neutral-100 shadow-sm">
+    <div className="p-3 rounded-[20px] border border-neutral-200 border-opacity-70 shadow-sm w-fit bg-white hover:bg-bgCardWork">
       <p>{text}</p>
       <div className="flex justify-start items-center mt-2">
         {imageSrc ? (
@@ -23,7 +23,7 @@ export default function ReviewCard({ text, name, title, imageSrc }: ReviewCardPr
             className="rounded-full mr-2"
           />
         ) : (
-          <div className="w-9 h-9 rounded-full bg-blue-300 mr-2"></div> 
+          <div className="w-9 h-9 rounded-full bg-gradient-to-t from-blue-300 to-blue-500 mr-2"></div>
         )}
         <div className="flex flex-col justify-center items-start">
           <h6 className="font-medium text-black">{name}</h6>

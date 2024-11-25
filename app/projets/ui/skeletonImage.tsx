@@ -20,7 +20,7 @@ export function SkeletonImage({ src, alt }: SkeletonImageProps) {
         alt={alt}
         width={600}
         height={400}
-        className={`transform transition duration-300 ease-in-out hover:scale-125 object-cover ${
+        className={`transform transition duration-300 ease-in-out hover:scale-110 object-cover ${
           loading ? "opacity-0" : "opacity-100"
         }`}
         onLoadingComplete={() => setLoading(false)}

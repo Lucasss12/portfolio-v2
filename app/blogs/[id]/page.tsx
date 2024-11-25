@@ -35,7 +35,7 @@ export default async function Post({ params }: Props) {
       </div>
 
       <div className="mb-12">
-        <h1 className="text-xl font-medium text-black">{postData.title}</h1>
+        <h1 className="text-xl font-semibold text-black underline">{postData.title}</h1>
         <p className="text-secondaryText text-sm">{postData.date}</p>
       </div>
 

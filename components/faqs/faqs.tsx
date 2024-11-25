@@ -56,7 +56,7 @@ function AccordionItem({ faq }: AccordionItemProps) {
 
   return (
     <div className="border-b border-neutral-200">
-      <button className="flex justify-between w-full py-4" onClick={() => setIsOpen(!isOpen)}>
+      <button className="flex justify-between w-full py-5" onClick={() => setIsOpen(!isOpen)}>
         {faq.question}
         <span className={`transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
           <Image width={16} height={16} src="icons/cross.svg" alt="Croix" />
