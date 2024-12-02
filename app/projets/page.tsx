@@ -26,9 +26,7 @@ export default function Projets() {
             <SkeletonImage src={project.image} alt={project.title} />
           </div>
 
-          <div className="flex justify-between items-center mt-2">
-            <h3 className="text-lg mt-2">{project.title}</h3>
-          </div>
+          <h3 className="text-lg text-secondaryText mt-1">{project.title}</h3>
 
           <div className="flex items-center">
             {project.tags.map((tag) => (

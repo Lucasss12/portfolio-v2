@@ -8,8 +8,7 @@ export default function services() {
       "+ Conception de maquette figma",
       "+ Amélioration de maquette figma",
       "+ UI/UX Design",
-      "+ Optimisation des performances web",
-      "+ No-code ( prochainement )",
+      "+ Optimisation des performances web"
    ];
 
   return (
