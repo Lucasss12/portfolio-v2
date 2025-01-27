@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import CardInfo from "./ui/cardInfo";
 import Button from "../ui/button";
+import { SkeletonImage } from "../ui/skeletonImage";
 
 export default function recentWork() {
   return (
@@ -26,13 +27,20 @@ export default function recentWork() {
       <Link href="https://naxt.fr/" target="_blank">
         <div>
           <div className="bg-gradient-to-tr from-blue-500 to-sky-400 p-3 rounded-2xl">
-            <Image
+            <SkeletonImage
+              src="/images/home-page-naxt.webp"
+              alt="Page d'accueil de Naxt"
+              width={1200}
+              height={800}
+              hover={false}
+            />
+            {/* <Image
               width={1200}
               height={800}
               alt="Page d'accueil de Naxt"
               src="/images/home-page-naxt.webp"
               className="w-fit rounded-lg shadow-sm"
-            />
+            /> */}
           </div>
         </div>
       </Link>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import CardInfo from "@/components/recentWork/ui/cardInfo";
 import projets from "@/content/projets.json";
-import { SkeletonImage } from "./ui/skeletonImage";
+import { SkeletonImage } from "../../components/ui/skeletonImage";
 
 export const metadata = {
   title: "Lucas Méné • Projets",
@@ -23,7 +23,7 @@ export default function Projets() {
           className="p-3 rounded-[20px] border border-neutral-200 border-opacity-70 shadow-sm w-fit bg-white hover:bg-bgCardWork">
           
           <div className="overflow-hidden rounded-lg relative">
-            <SkeletonImage src={project.image} alt={project.title} />
+            <SkeletonImage src={project.image} alt={project.title} width={600} height={400} hover={true} />
           </div>
 
           <h3 className="text-lg text-secondaryText mt-1">{project.title}</h3>
