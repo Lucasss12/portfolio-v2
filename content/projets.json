@@ -35,7 +35,7 @@
     "id": 2,
     "title": "The Packing Hroject",
     "date": "Mars 2033",
-    "tags": ["React.js", "Css"],
+    "tags": ["React.js", "CSS"],
     "image": "/projects/tph.webp",
     "link": "https://the-packing-hroject-8rmg.vercel.app/"
   },
@@ -43,7 +43,7 @@
     "id": 1,
     "title": "Truffières Saint-Martin",
     "date": "Janvier 2023",
-    "tags": ["React.js", "Css"],
+    "tags": ["React.js", "CSS"],
     "image": "/projects/tsm.webp",
     "link": "https://truffieressaintmartin.com/"
   }
