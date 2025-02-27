@@ -4,7 +4,7 @@ const works = [
   {
     company: "Naxt",
     position: "UI/UX - front-end",
-    date: "Nov. 2023 - Oct. 2024",
+    date: "Nov. 2023 - Fév. 2025",
   },
   {
     company: "SUZUKI",

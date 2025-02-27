@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 
 type FAQ = {
   question: string;
@@ -39,9 +40,9 @@ const faqsData: FAQ[] = [
 export default function FAQs() {
   return (
     <div className="sm:mt-20 mt-12">
-       <h3 className="text-xl font-medium mb-4 text-black">Mon dernier projet</h3>
-      {faqsData.map((faq, index) => (
-        <AccordionItem key={index} faq={faq} />
+      <h3 className="text-xl font-medium mb-4 text-black">Mon dernier projet</h3>
+      {faqsData.map((faq: FAQ, index: number) => (
+        <AccordionItem key={index} faq={faq} isLast={index === faqsData.length - 1} />
       ))}
     </div>
   );
@@ -49,22 +50,32 @@ export default function FAQs() {
 
 type AccordionItemProps = {
   faq: FAQ;
+  isLast: boolean;
 };
 
-function AccordionItem({ faq }: AccordionItemProps) {
+function AccordionItem({ faq, isLast }: AccordionItemProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b border-neutral-200">
+    <motion.div className={`${isLast ? '' : 'border-b border-neutral-200'}`}>
       <button className="flex justify-between w-full py-5" onClick={() => setIsOpen(!isOpen)}>
         {faq.question}
-        <span className={`transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
+        <motion.span
+          animate={{ rotate: isOpen ? 45 : 0 }}
+          transition={{ duration: 0.2 }}>
           <Image width={16} height={16} src="icons/cross.svg" alt="Croix" />
-        </span>
+        </motion.span>
       </button>
-      <div className={`transition-max-height duration-500 ease-in-out overflow-hidden ${ isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0' }`}>
+      
+      <motion.div
+        layout
+        initial={{ height: 0, opacity: 0 }}
+        animate={{ height: isOpen ? 'auto' : 0, opacity: isOpen ? 1 : 0 }}
+        transition={{ duration: 0.2, ease: "easeInOut" }}
+        className="overflow-hidden max-h-40">
         <p className="pb-4 text-secondaryText">{faq.answer}</p>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
+

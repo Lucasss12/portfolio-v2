@@ -11,7 +11,7 @@ type ReviewCardProps = {
 export default function ReviewCard({ text, name, title, imageSrc }: ReviewCardProps
 ) {
   return (
-    <div className="p-3 rounded-[20px] border border-neutral-200 border-opacity-70 shadow-sm w-fit bg-white hover:bg-bgCardWork">
+    <div className="p-3 rounded-[20px] border border-neutral-200 border-opacity-70 shadow-sm w-fit bg-white hover:bg-bgCardWork flex flex-col justify-between">
       <p>{text}</p>
       <div className="flex justify-start items-center mt-2">
         {imageSrc ? (

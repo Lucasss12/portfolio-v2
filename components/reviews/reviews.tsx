@@ -28,7 +28,7 @@ const reviewsData: Review[] = [
     imageSrc: "/images/lucasO-pfp.webp",
   },
   {
-    text: "Je recommande Lucas qui dispose à la fois de grandes qualités techniques et humaines. Lucas a mené la partie frontend de notre MVP avec succès et efficacité. Lucas est très fiable dans le travail et dans le suivi. C'est tellement agréable de travailler avec des personnes comme cela! Nous recommandons Lucas et ferons à nouveau appel à lui par la suite.",
+    text: "Je recommande Lucas qui dispose à la fois de grandes qualités techniques et humaines. Lucas a mené la partie frontend de notre MVP avec succès et efficacité. Lucas est très fiable dans le travail et dans le suivi.",
     name: "Benoît R.",
     title: "Capeo",
   },

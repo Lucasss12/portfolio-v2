@@ -31,7 +31,6 @@ export default function headers() {
 
         <p className="mb-4 text-base text-secondaryText">
         <span className='text-xl font-medium text-black'>Développeur front-end. {" "}</span> <br/>
-          {/* {`Je suis développeur `} <span className="text-black underline">front-end</span>. */}
           {` J'imagine et design votre site avec `}
           <Badge href="https://www.figma.com/fr-fr/">
             <Image alt="Logo Figma" src="/icons/figma.svg" className="!mr-1" width="14" height="14"/>

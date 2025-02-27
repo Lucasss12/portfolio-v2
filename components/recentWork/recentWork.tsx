@@ -34,13 +34,6 @@ export default function recentWork() {
               height={800}
               hover={false}
             />
-            {/* <Image
-              width={1200}
-              height={800}
-              alt="Page d'accueil de Naxt"
-              src="/images/home-page-naxt.webp"
-              className="w-fit rounded-lg shadow-sm"
-            /> */}
           </div>
         </div>
       </Link>
@@ -48,7 +41,7 @@ export default function recentWork() {
         <Link href="https://naxt.fr/" target="_blank" className="flex items-center text-lg w-fit underline">Naxt.fr</Link>
 
         <p className="text-sm text-secondaryText text-opacity-65">
-          Nov. 2023 - Oct. 2024
+          Nov. 2023 - Fév. 2025
         </p>
       </div>
 
